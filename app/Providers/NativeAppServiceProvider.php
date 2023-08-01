@@ -17,7 +17,6 @@ class NativeAppServiceProvider
      */
     public function boot(): void
     {
-        Window::open()->height(800)->width(600);
-        MenuBar::create();
+        MenuBar::create()->height(800)->width(600);
     }
 }
